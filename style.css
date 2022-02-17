@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(4, 3, 4);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(156, 240, 210);
+}
+
+/*Faz o efeito de animção da barra "|"*/
+#frase::after {
+    content: "|";
+    margin-left: 5px;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
