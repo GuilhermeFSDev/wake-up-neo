@@ -4,7 +4,7 @@ body {
     color: rgb(156, 240, 210);
 }
 
-/*Faz o efeito de animção da barra "|"*/
+/*Faz o efeito de animação da barra "|"*/
 #frase::after {
     content: "|";
     margin-left: 5px;
